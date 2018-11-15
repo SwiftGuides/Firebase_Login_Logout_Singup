@@ -6,6 +6,8 @@
 //  Copyright © 2018 com.thisislit. All rights reserved.
 //
 
+// FCM Push notification example code
+
 import UIKit
 import Firebase
 
