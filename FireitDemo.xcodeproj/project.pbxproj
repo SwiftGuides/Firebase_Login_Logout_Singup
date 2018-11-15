@@ -12,9 +12,15 @@
 		9ABF26612189ABD900D81FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF265F2189ABD900D81FF5 /* Main.storyboard */; };
 		9ABF26632189ABDF00D81FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF26622189ABDF00D81FF5 /* Assets.xcassets */; };
 		9ABF26662189ABDF00D81FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF26642189ABDF00D81FF5 /* LaunchScreen.storyboard */; };
+		9ABF26712189B4A500D81FF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF26702189B4A500D81FF5 /* GoogleService-Info.plist */; };
+		9AD53FF9218C397C001BE08A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD53FF8218C397C001BE08A /* LoginViewController.swift */; };
+		9AD53FFB218C3991001BE08A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD53FFA218C3991001BE08A /* SignupViewController.swift */; };
+		9AD53FFD218C5724001BE08A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD53FFC218C5724001BE08A /* HomeViewController.swift */; };
+		EA4C3539A019CE5224037BB0 /* Pods_FireitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A7F92EB07AC3B653FC1C3 /* Pods_FireitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C9A7F92EB07AC3B653FC1C3 /* Pods_FireitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF26582189ABD900D81FF5 /* FireitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF265B2189ABD900D81FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABF265D2189ABD900D81FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,13 @@
 		9ABF26622189ABDF00D81FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABF26652189ABDF00D81FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ABF26672189ABDF00D81FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABF266F2189B2C100D81FF5 /* FireitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FireitDemo.entitlements; sourceTree = "<group>"; };
+		9ABF26702189B4A500D81FF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AD53FF8218C397C001BE08A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AD53FFA218C3991001BE08A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9AD53FFC218C5724001BE08A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C2BE559DF033088CC4E95DA3 /* Pods-FireitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireitDemo/Pods-FireitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE28F128954DA2ADE858D93B /* Pods-FireitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireitDemo/Pods-FireitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4C3539A019CE5224037BB0 /* Pods_FireitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AA8257950370E37F20C9D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C9A7F92EB07AC3B653FC1C3 /* Pods_FireitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9ABF264F2189ABD900D81FF5 = {
 			isa = PBXGroup;
 			children = (
 				9ABF265A2189ABD900D81FF5 /* FireitDemo */,
 				9ABF26592189ABD900D81FF5 /* Products */,
+				DAC5EE137A2817396767771D /* Pods */,
+				5AA8257950370E37F20C9D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,28 @@
 		9ABF265A2189ABD900D81FF5 /* FireitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9ABF266F2189B2C100D81FF5 /* FireitDemo.entitlements */,
 				9ABF265B2189ABD900D81FF5 /* AppDelegate.swift */,
 				9ABF265D2189ABD900D81FF5 /* ViewController.swift */,
 				9ABF265F2189ABD900D81FF5 /* Main.storyboard */,
 				9ABF26622189ABDF00D81FF5 /* Assets.xcassets */,
 				9ABF26642189ABDF00D81FF5 /* LaunchScreen.storyboard */,
 				9ABF26672189ABDF00D81FF5 /* Info.plist */,
+				9ABF26702189B4A500D81FF5 /* GoogleService-Info.plist */,
+				9AD53FF8218C397C001BE08A /* LoginViewController.swift */,
+				9AD53FFC218C5724001BE08A /* HomeViewController.swift */,
+				9AD53FFA218C3991001BE08A /* SignupViewController.swift */,
 			);
 			path = FireitDemo;
+			sourceTree = "<group>";
+		};
+		DAC5EE137A2817396767771D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE28F128954DA2ADE858D93B /* Pods-FireitDemo.debug.xcconfig */,
+				C2BE559DF033088CC4E95DA3 /* Pods-FireitDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ABF266A2189ABDF00D81FF5 /* Build configuration list for PBXNativeTarget "FireitDemo" */;
 			buildPhases = (
+				EBC56B3284B0983AAA8E1090 /* [CP] Check Pods Manifest.lock */,
 				9ABF26542189ABD900D81FF5 /* Sources */,
 				9ABF26552189ABD900D81FF5 /* Frameworks */,
 				9ABF26562189ABD900D81FF5 /* Resources */,
+				1E95261856C7D6C8FF1F6876 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +136,11 @@
 				TargetAttributes = {
 					9ABF26572189ABD900D81FF5 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABF26662189ABDF00D81FF5 /* LaunchScreen.storyboard in Resources */,
+				9ABF26712189B4A500D81FF5 /* GoogleService-Info.plist in Resources */,
 				9ABF26632189ABDF00D81FF5 /* Assets.xcassets in Resources */,
 				9ABF26612189ABD900D81FF5 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +176,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E95261856C7D6C8FF1F6876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireitDemo/Pods-FireitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireitDemo/Pods-FireitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC56B3284B0983AAA8E1090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9ABF26542189ABD900D81FF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD53FFD218C5724001BE08A /* HomeViewController.swift in Sources */,
+				9AD53FF9218C397C001BE08A /* LoginViewController.swift in Sources */,
 				9ABF265E2189ABD900D81FF5 /* ViewController.swift in Sources */,
+				9AD53FFB218C3991001BE08A /* SignupViewController.swift in Sources */,
 				9ABF265C2189ABD900D81FF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +382,18 @@
 		};
 		9ABF266B2189ABDF00D81FF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE28F128954DA2ADE858D93B /* Pods-FireitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireitDemo/FireitDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WEK6Q323Y;
 				INFOPLIST_FILE = FireitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noob.FireitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.Scumper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +402,18 @@
 		};
 		9ABF266C2189ABDF00D81FF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BE559DF033088CC4E95DA3 /* Pods-FireitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireitDemo/FireitDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WEK6Q323Y;
 				INFOPLIST_FILE = FireitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noob.FireitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.Scumper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
